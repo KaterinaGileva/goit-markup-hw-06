@@ -394,7 +394,10 @@ fill: var(--accent-cl)
 .form-modal-label {
     position: relative;
     display: inline-block;
-    font-size: 14px;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.01em;
+    margin-bottom: 4px;
 }
 
 .form-modal-label:before {
@@ -407,7 +410,7 @@ fill: var(--accent-cl)
 
 .form-modal-input {
     width: 100%;
-    padding: 12px 40px;
+    padding: 11px 40px;
 
     border-radius: 4px;
     border: 1px solid rgba(33, 33, 33, 0.2);
@@ -1089,6 +1092,10 @@ position: relative;
     color: rgba(255, 255, 255, 0.6);
     background-color: transparent;
  }
+
+/*.form-input:focus {
+    outline: none;
+}*/
 
 .form-subscribe-icon {
 
